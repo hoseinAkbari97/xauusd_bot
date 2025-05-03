@@ -19,3 +19,7 @@ data/
 
 # Local overrides
 *.local
+
+# Ansible for devops
+# pydantic for data validation and data serialization
+# RabbiMQ for message broker
