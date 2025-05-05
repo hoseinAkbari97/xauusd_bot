@@ -29,3 +29,6 @@ def initialize_mt5():
 
 
 initialize_mt5()
+
+# This is a test code
+print("Hello Mt5")
