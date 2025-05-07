@@ -49,3 +49,5 @@ def fetch_ohlc_by_date(symbol="XAUUSD", timeframe=mt5.TIMEFRAME_M5, days=30):
     df['time'] = pd.to_datetime(df['time'], unit='s')
     df.set_index('time', inplace=True)
     return df[['open', 'high', 'low', 'close', 'volume']]
+
+print("Hello. This is the first XAUUSD bot for 5 min trade")
