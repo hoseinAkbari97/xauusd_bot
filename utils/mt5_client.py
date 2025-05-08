@@ -1,4 +1,3 @@
-
 import MetaTrader5 as mt5
 import pandas as pd
 from dotenv import load_dotenv
@@ -29,6 +28,3 @@ def initialize_mt5():
 
 
 initialize_mt5()
-
-# This is a test code
-print("Hello Mt5")
