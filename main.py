@@ -2,6 +2,7 @@ from utils.data_fetcher import fetch_ohlc
 from strategies.price_action import detect_signals
 from backtesting.backtest import BacktestStrategy
 import backtrader as bt
+import MetaTrader5 as mt5
 
 
 def main():
