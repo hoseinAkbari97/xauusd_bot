@@ -1,4 +1,3 @@
-# main.py
 from backtesting.backtest import BacktestStrategy
 from utils.data_fetcher import fetch_ohlc
 from strategies.price_action import detect_signals
@@ -28,7 +27,7 @@ def main():
     cerebro.adddata(data)
     cerebro.addstrategy(BacktestStrategy)
     cerebro.run()
-    cerebro.plot()
+    # cerebro.plot()
 
 
 if __name__ == "__main__":

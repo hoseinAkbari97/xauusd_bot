@@ -1,4 +1,3 @@
-# backtesting/backtest.py
 import backtrader as bt
 
 class BacktestStrategy(bt.Strategy):

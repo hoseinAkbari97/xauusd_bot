@@ -1,4 +1,3 @@
-# strategies/price_action.py
 import pandas as pd
 
 def detect_signals(df):
