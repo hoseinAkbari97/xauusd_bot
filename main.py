@@ -7,15 +7,15 @@ import MetaTrader5 as mt5
 
 # Test 01
 class CustomData(bt.feeds.PandasData):
-    lines = ('signal',)  # Add custom 'signal' line
+    lines = ('signal',)
     params = (
-        ('datetime', None),  # Use existing index
+        ('datetime', None),
         ('open', 'open'),
         ('high', 'high'),
         ('low', 'low'),
         ('close', 'close'),
         ('volume', 'volume'),
-        ('signal', 'signal'),  # Map to DataFrame column
+        ('signal', 'signal'),
     )
 
 
