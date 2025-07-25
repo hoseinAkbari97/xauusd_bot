@@ -4,8 +4,6 @@ from strategies.price_action import detect_signals
 import backtrader as bt
 import MetaTrader5 as mt5
 
-
-# Test 01
 class CustomData(bt.feeds.PandasData):
     lines = ('signal',)
     params = (
