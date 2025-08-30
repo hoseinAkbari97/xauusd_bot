@@ -27,6 +27,7 @@ def main():
     cerebro.addstrategy(BacktestStrategy)
     cerebro.run()
     # cerebro.plot()
+    print("After Right Away")
 
 
 if __name__ == "__main__":
