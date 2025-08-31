@@ -27,6 +27,7 @@ def main():
     cerebro.addstrategy(BacktestStrategy)
     cerebro.run()
     # cerebro.plot()
+    print("Dummy comment 1234")
 
 
 if __name__ == "__main__":
